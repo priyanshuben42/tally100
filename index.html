@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Modern+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <title>Fundamentals of IT Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header id="instituteDetails">
+    <h1>Sensorstech Computer Institute</h1>
+    <p><strong>Address:</strong> Beside Scholar's Valley School, Newada, BLW RD.</p>
+    <h2>Tally Prime 2025</h2>
+    <p><strong>Founder:</strong> Anand Kumar Sharma</p>
+    <p><strong>Teacher:</strong> Priyanshu Ben</p>
+  </header>
+
+  <main style="display: flex; flex-direction: row; justify-content: center; gap: 20px; position: relative;">
+    <div style="flex: 1; max-width: 800px;">
+      <section id="studentFormContainer">
+        <h2>Enter Student Details</h2>
+        <form id="studentForm" novalidate>
+          <label for="studentName">Name:</label>
+          <input type="text" id="studentName" name="studentName" required />
+
+          <label for="studentEmail">Email:</label>
+          <input type="email" id="studentEmail" name="studentEmail" required />
+
+          <button type="submit">Start Quiz</button>
+        </form>
+      </section>
+
+      <section id="quizContainer" hidden>
+        <div id="timer">Time Left: 90:00</div>
+        <form id="quizForm">
+
+          <div id="questionsPlaceholder">
+
+            <div class="question">
+              <p>1. Tally Prime is an _________ software.</p>
+              <div class="options">
+                <label><input type="radio" name="q1" value="A" /> A) Accounting</label>
+                <label><input type="radio" name="q1" value="B" /> B) Graphic Designing</label>
+                <label><input type="radio" name="q1" value="C" /> C) Code Editing</label>
+                <label><input type="radio" name="q1" value="D" /> D) Sheet Managment</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>2. __________ Duplicates the selected voucher.</p>
+              <div class="options">
+                <label><input type="radio" name="q2" value="A" /> A) ALT + 2</label>
+                <label><input type="radio" name="q2" value="B" /> B) CTRL + A</label>
+                <label><input type="radio" name="q2" value="C" /> C) ALT + F5</label>
+                <label><input type="radio" name="q2" value="D" /> D) ALT + F4</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>3. __________ Prints the Report.</p>
+              <div class="options">
+                <label><input type="radio" name="q3" value="A" /> A) CTRL + ENTER</label>
+                <label><input type="radio" name="q3" value="B" /> B) ALT + C</label>
+                <label><input type="radio" name="q3" value="C" /> C) ALT + P</label>
+                <label><input type="radio" name="q3" value="D" /> D) F11</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>4. __________ Alters a master while marking an entry or viewing a report.</p>
+              <div class="options">
+                <label><input type="radio" name="q4" value="A" /> A) CTRL + F2</label>
+                <label><input type="radio" name="q4" value="B" /> B) CTRL + A</label>
+                <label><input type="radio" name="q4" value="C" /> C) CTRL + Enter</label>
+                <label><input type="radio" name="q4" value="D" /> D) ALT + U</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>5. __________ Selects date.</p>
+              <div class="options">
+                <label><input type="radio" name="q5" value="A" /> A) CTRL + F2</label>
+                <label><input type="radio" name="q5" value="B" /> B) F2</label>
+                <label><input type="radio" name="q5" value="C" /> C) CTRL + D</label>
+                <label><input type="radio" name="q5" value="D" /> D) F7</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>6. _________ used to open Payment Voucher.</p>
+              <div class="options">
+                <label><input type="radio" name="q6" value="A" /> A) F5</label>
+                <label><input type="radio" name="q6" value="B" /> B) F7</label>
+                <label><input type="radio" name="q6" value="C" /> C) F2</label>
+                <label><input type="radio" name="q6" value="D" /> D) ALT + F2</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>7. ___________ used to see the calculator.</p>
+              <div class="options">
+                <label><input type="radio" name="q7" value="A" /> A) CTRL + T</label>
+                <label><input type="radio" name="q7" value="B" /> B) ALT + F4</label>
+                <label><input type="radio" name="q7" value="C" /> C) ALT + N</label>
+                <label><input type="radio" name="q7" value="D" /> D) CTRL + N</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>8. Ayush started a business with cash.</p>
+              <div class="options">
+                <label><input type="radio" name="q8" value="A" /> A) Capital A/c DR Cash A/c CR</label>
+                <label><input type="radio" name="q8" value="B" /> B) Capital A/c CR Cash A/c DR</label>
+                <label><input type="radio" name="q8" value="C" /> C) Ayush A/c DR Cash A/c CR</label>
+                <label><input type="radio" name="q8" value="D" /> D) Ayush A/c CR Cash A/c DR</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>9. GST rate on Lays Chips in India -</p>
+              <div class="options">
+                <label><input type="radio" name="q9" value="A" /> A) 00%</label>
+                <label><input type="radio" name="q9" value="B" /> B) 12%</label>
+                <label><input type="radio" name="q9" value="C" /> C) 18%</label>
+                <label><input type="radio" name="q9" value="D" /> D) 6%</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>10. Ledger Group of IGST _______.</p>
+              <div class="options">
+                <label><input type="radio" name="q10" value="A" /> A) Indirect Expenses</label>
+                <label><input type="radio" name="q10" value="B" /> B) Direct Expense</label>
+                <label><input type="radio" name="q10" value="C" /> C) Duties & Taxes</label>
+                <label><input type="radio" name="q10" value="D" /> D) Current Liabilities</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>11. Ledger Group of Discount Recd._______.</p>
+              <div class="options">
+                <label><input type="radio" name="q11" value="A" /> A) Indirect Expenses</label>
+                <label><input type="radio" name="q11" value="B" /> B) Fixed Assets</label>
+                <label><input type="radio" name="q11" value="C" /> C) Loans Liability</label>
+                <label><input type="radio" name="q11" value="D" /> D) Indirect Income</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>12. Ledger Group of Prepaid Rent _____.</p>
+              <div class="options">
+                <label><input type="radio" name="q12" value="A" /> A) Indirect Expense</label>
+                <label><input type="radio" name="q12" value="B" /> B) Sundry Creditors</label>
+                <label><input type="radio" name="q12" value="C" /> C) Current Liability</label>
+                <label><input type="radio" name="q12" value="D" /> D) Current Assets</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>13. Ledger Group of penalty ______.</p>
+              <div class="options">
+                <label><input type="radio" name="q13" value="A" /> A) Current Assets</label>
+                <label><input type="radio" name="q13" value="B" /> B) Investments</label>
+                <label><input type="radio" name="q13" value="C" /> C) Indirect Expenses</label>
+                <label><input type="radio" name="q13" value="D" /> D) Direct Expenses</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>14. Drawings Ledger Group ________.</p>
+              <div class="options">
+                <label><input type="radio" name="q14" value="A" /> A) Capital Account</label>
+                <label><input type="radio" name="q14" value="B" /> B) Current Assets</label>
+                <label><input type="radio" name="q14" value="C" /> C) Indirect Expenses</label>
+                <label><input type="radio" name="q14" value="D" /> D) Loans Liability</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>15. Service Tax Payable Ledger Group _________.</p>
+              <div class="options">
+                <label><input type="radio" name="q15" value="A" /> A) Current Assets</label>
+                <label><input type="radio" name="q15" value="B" /> B) Current Liability</label>
+                <label><input type="radio" name="q15" value="C" /> C) Duties & Taxes</label>
+                <label><input type="radio" name="q15" value="D" /> D) Loans (Liability)</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>16. What is the full form of GST?</p>
+              <div class="options">
+                <label><input type="radio" name="q16" value="A" /> A) Goods and Sales Tax</label>
+                <label><input type="radio" name="q16" value="B" /> B) General Sales Tax</label>
+                <label><input type="radio" name="q16" value="C" /> C) Goods and Services Tax</label>
+                <label><input type="radio" name="q16" value="D" /> D) Government Sales Tax</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>17. GST was Implemented from which Date -</p>
+              <div class="options">
+                <label><input type="radio" name="q17" value="A" /> A) 1 April 2016</label>
+                <label><input type="radio" name="q17" value="B" /> B) 1 July 2017</label>
+                <label><input type="radio" name="q17" value="C" /> C) 1 January 2017</label>
+                <label><input type="radio" name="q17" value="D" /> D) 1 March 2016</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>18. How many Types of GST are there in India?</p>
+              <div class="options">
+                <label><input type="radio" name="q18" value="A" /> A) One</label>
+                <label><input type="radio" name="q18" value="B" /> B) Two</label>
+                <label><input type="radio" name="q18" value="C" /> C) Three</label>
+                <label><input type="radio" name="q18" value="D" /> D) Four</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>19. Who is responsible for collecting IGST?</p>
+              <div class="options">
+                <label><input type="radio" name="q19" value="A" /> A) State Government</label>
+                <label><input type="radio" name="q19" value="B" /> B) Central Government</label>
+                <label><input type="radio" name="q19" value="C" /> C) Both</label>
+                <label><input type="radio" name="q19" value="D" /> D) RBI</label>
+              </div>
+            </div>
+            <div class="question">
+              <p>20. What is the meaning of CGST?</p>
+              <div class="options">
+                <label><input type="radio" name="q20" value="A" /> A) Central Goods and Services Tax</label>
+                <label><input type="radio" name="q20" value="B" /> B) Combined Goods and Services Tax</label>
+                <label><input type="radio" name="q20" value="C" /> C) Compulsory Goods and Services Tax</label>
+                <label><input type="radio" name="q20" value="D" /> D) Central Government Sales Tax</label>
+              </div>
+            </div>
+            <div class="question">
+  <p>21. What is the purpose of the "Maintain Balances Bill-by-Bill" feature in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q21" value="A" /> A) To track payroll entries</label>
+    <label><input type="radio" name="q21" value="B" /> B) To track outstanding bills of parties</label>
+    <label><input type="radio" name="q21" value="C" /> C) To maintain GST records</label>
+    <label><input type="radio" name="q21" value="D" /> D) To generate trial balance</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>22. In which ledger group is the “Maintain balances bill-by-bill” option most commonly enabled?</p>
+  <div class="options">
+    <label><input type="radio" name="q22" value="A" /> A) Indirect Expenses</label>
+    <label><input type="radio" name="q22" value="B" /> B) Indirect Income</label>
+    <label><input type="radio" name="q22" value="C" /> C) Sundry Debtors / Sundry Creditors</label>
+    <label><input type="radio" name="q22" value="D" /> D) Capital Account</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>23. What type of details does Tally ask when “Maintain balances bill-by-bill” is enabled?</p>
+  <div class="options">
+    <label><input type="radio" name="q23" value="A" /> A) Stock Group</label>
+    <label><input type="radio" name="q23" value="B" /> B) Voucher Type</label>
+    <label><input type="radio" name="q23" value="C" /> C) Bill-wise Details like Bill No. and Due Date</label>
+    <label><input type="radio" name="q23" value="D" /> D) TDS Deduction</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>24. When does Tally Prime prompt for “Bill-wise Details”?</p>
+  <div class="options">
+    <label><input type="radio" name="q24" value="A" /> A) At the time of ledger creation</label>
+    <label><input type="radio" name="q24" value="B" /> B) At the time of stock item creation</label>
+    <label><input type="radio" name="q24" value="C" /> C) During voucher entry for parties with bill-by-bill enabled</label>
+    <label><input type="radio" name="q24" value="D" /> D) While creating company</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>25. What is the default status of “Maintain balances bill-by-bill” when creating a ledger under Sundry Debtors?</p>
+  <div class="options">
+    <label><input type="radio" name="q25" value="A" /> A) Yes</label>
+    <label><input type="radio" name="q25" value="B" /> B) No</label>
+    <label><input type="radio" name="q25" value="C" /> C) Optional</label>
+    <label><input type="radio" name="q25" value="D" /> D) Hidden</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>26. Which one is NOT a bill-wise reference type in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q26" value="A" /> A) New Ref</label>
+    <label><input type="radio" name="q26" value="B" /> B) Against Ref</label>
+    <label><input type="radio" name="q26" value="C" /> C) Advance</label>
+    <label><input type="radio" name="q26" value="D" /> D) Outstanding</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>27. What happens if the “Maintain balances bill-by-bill” option is disabled for a party ledger?</p>
+  <div class="options">
+    <label><input type="radio" name="q27" value="A" /> A) Tally won’t allow entries</label>
+    <label><input type="radio" name="q27" value="B" /> B) You can’t create invoices</label>
+    <label><input type="radio" name="q27" value="C" /> C) Tally won’t track outstanding bills</label>
+    <label><input type="radio" name="q27" value="D" /> D) Tally gives an error</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>28. Which report in Tally shows the outstanding balance bill-by-bill?</p>
+  <div class="options">
+    <label><input type="radio" name="q28" value="A" /> A) Profit & Loss A/c</label>
+    <label><input type="radio" name="q28" value="B" /> B) Day Book</label>
+    <label><input type="radio" name="q28" value="C" /> C) Outstanding Receivables / Payables</label>
+    <label><input type="radio" name="q28" value="D" /> D) Trial Balance</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>29. What does the “Against Ref” option indicate during bill-wise entry?</p>
+  <div class="options">
+    <label><input type="radio" name="q29" value="A" /> A) A new bill is being raised</label>
+    <label><input type="radio" name="q29" value="B" /> B) Payment is made against an existing bill</label>
+    <label><input type="radio" name="q29" value="C" /> C) Advance is being given</label>
+    <label><input type="radio" name="q29" value="D" /> D) Credit note is being issued</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>30. How can you activate “Maintain balances bill-by-bill” for a ledger in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q30" value="A" /> A) Gateway of Tally > F11 > Accounting Features</label>
+    <label><input type="radio" name="q30" value="B" /> B) In ledger creation > Set “Maintain balances bill-by-bill” to Yes</label>
+    <label><input type="radio" name="q30" value="C" /> C) In Company Info menu</label>
+    <label><input type="radio" name="q30" value="D" /> D) Both A and B</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>31. What is the primary purpose of the Payroll feature in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q31" value="A" /> A) To record sales entries</label>
+    <label><input type="radio" name="q31" value="B" /> B) To manage inventory</label>
+    <label><input type="radio" name="q31" value="C" /> C) To manage employee salary and attendance</label>
+    <label><input type="radio" name="q31" value="D" /> D) To track GST filing</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>32. How can you activate Payroll in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q32" value="A" /> A) Gateway of Tally > Alt + F3</label>
+    <label><input type="radio" name="q32" value="B" /> B) Gateway of Tally > F11 > Enable Payroll Feature</label>
+    <label><input type="radio" name="q32" value="C" /> C) F12 Configuration</label>
+    <label><input type="radio" name="q32" value="D" /> D) Company Info > Create</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>33. What is the full form of ESI in Payroll context?</p>
+  <div class="options">
+    <label><input type="radio" name="q33" value="A" /> A) Employee Salary Information</label>
+    <label><input type="radio" name="q33" value="B" /> B) Employees’ State Insurance</label>
+    <label><input type="radio" name="q33" value="C" /> C) Employee Stock Incentive</label>
+    <label><input type="radio" name="q33" value="D" /> D) Employer Salary Interface</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>34. Which of the following is NOT a Payroll component in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q34" value="A" /> A) Attendance/Production Type</label>
+    <label><input type="radio" name="q34" value="B" /> B) Pay Head</label>
+    <label><input type="radio" name="q34" value="C" /> C) Salary Slip</label>
+    <label><input type="radio" name="q34" value="D" /> D) Stock Group</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>35. Where do you define components like Basic Pay, HRA, and Bonus in Tally Payroll?</p>
+  <div class="options">
+    <label><input type="radio" name="q35" value="A" /> A) Voucher Type</label>
+    <label><input type="radio" name="q35" value="B" /> B) Pay Head</label>
+    <label><input type="radio" name="q35" value="C" /> C) Stock Category</label>
+    <label><input type="radio" name="q35" value="D" /> D) Ledger</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>36. What type of voucher is used to record salary in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q36" value="A" /> A) Payment Voucher</label>
+    <label><input type="radio" name="q36" value="B" /> B) Journal Voucher</label>
+    <label><input type="radio" name="q36" value="C" /> C) Payroll Voucher</label>
+    <label><input type="radio" name="q36" value="D" /> D) Contra Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>37. Which report helps you to view salary payable for employees?</p>
+  <div class="options">
+    <label><input type="radio" name="q37" value="A" /> A) Balance Sheet</label>
+    <label><input type="radio" name="q37" value="B" /> B) Payroll Statement</label>
+    <label><input type="radio" name="q37" value="C" /> C) Salary Register</label>
+    <label><input type="radio" name="q37" value="D" /> D) Employee Ledger</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>38. What is the use of “Attendance Type” in Payroll?</p>
+  <div class="options">
+    <label><input type="radio" name="q38" value="A" /> A) To manage working capital</label>
+    <label><input type="radio" name="q38" value="B" /> B) To define employee’s monthly salary</label>
+    <label><input type="radio" name="q38" value="C" /> C) To record attendance and leaves</label>
+    <label><input type="radio" name="q38" value="D" /> D) To manage voucher numbering</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>39. Which of the following is a statutory deduction handled in Payroll?</p>
+  <div class="options">
+    <label><input type="radio" name="q39" value="A" /> A) GST</label>
+    <label><input type="radio" name="q39" value="B" /> B) TDS</label>
+    <label><input type="radio" name="q39" value="C" /> C) Tally Vault</label>
+    <label><input type="radio" name="q39" value="D" /> D) Bank Reconciliation</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>40. What is the purpose of “Employee Group” in Tally Prime Payroll?</p>
+  <div class="options">
+    <label><input type="radio" name="q40" value="A" /> A) To manage employee loans</label>
+    <label><input type="radio" name="q40" value="B" /> B) To categorize employees for reporting</label>
+    <label><input type="radio" name="q40" value="C" /> C) To assign employee email IDs</label>
+    <label><input type="radio" name="q40" value="D" /> D) To manage inventory stock</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>41. What is a Pay Head in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q41" value="A" /> A) A bank ledger</label>
+    <label><input type="radio" name="q41" value="B" /> B) A type of stock group</label>
+    <label><input type="radio" name="q41" value="C" /> C) A component of payroll like Basic Pay, HRA, or PF</label>
+    <label><input type="radio" name="q41" value="D" /> D) A payment voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>42. Which of the following is an Earnings Pay Head?</p>
+  <div class="options">
+    <label><input type="radio" name="q42" value="A" /> A) Provident Fund</label>
+    <label><input type="radio" name="q42" value="B" /> B) Professional Tax</label>
+    <label><input type="radio" name="q42" value="C" /> C) Basic Salary</label>
+    <label><input type="radio" name="q42" value="D" /> D) Employee PF Deduction</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>43. Under which group should "Basic Salary" Pay Head be classified?</p>
+  <div class="options">
+    <label><input type="radio" name="q43" value="A" /> A) Indirect Expenses</label>
+    <label><input type="radio" name="q43" value="B" /> B) Indirect Income</label>
+    <label><input type="radio" name="q43" value="C" /> C) Direct Incomes</label>
+    <label><input type="radio" name="q43" value="D" /> D) Indirect Incomes</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>44. What type should be selected for Provident Fund in Pay Head creation?</p>
+  <div class="options">
+    <label><input type="radio" name="q44" value="A" /> A) Earning for Employees</label>
+    <label><input type="radio" name="q44" value="B" /> B) Deduction from Employees</label>
+    <label><input type="radio" name="q44" value="C" /> C) Employer Contribution</label>
+    <label><input type="radio" name="q44" value="D" /> D) Fixed Asset</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>45. Which Pay Head Type is used for Employer's contribution to Provident Fund?</p>
+  <div class="options">
+    <label><input type="radio" name="q45" value="A" /> A) Deduction from Employees</label>
+    <label><input type="radio" name="q45" value="B" /> B) Statutory Contribution</label>
+    <label><input type="radio" name="q45" value="C" /> C) Reimbursement to Employees</label>
+    <label><input type="radio" name="q45" value="D" /> D) Indirect Incomes</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>46. Which of the following is a default Pay Head in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q46" value="A" /> A) House Rent</label>
+    <label><input type="radio" name="q46" value="B" /> B) City Compensatory Allowance</label>
+    <label><input type="radio" name="q46" value="C" /> C) Professional Tax</label>
+    <label><input type="radio" name="q46" value="D" /> D) Gratuity</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>47. In Pay Head creation, what does “Affects Net Salary” mean?</p>
+  <div class="options">
+    <label><input type="radio" name="q47" value="A" /> A) It affects journal vouchers</label>
+    <label><input type="radio" name="q47" value="B" /> B) It appears in the balance sheet</label>
+    <label><input type="radio" name="q47" value="C" /> C) It is included in net salary calculation</label>
+    <label><input type="radio" name="q47" value="D" /> D) It is used only in purchase entries</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>48. Which Pay Head type would you select for Travel Reimbursement?</p>
+  <div class="options">
+    <label><input type="radio" name="q48" value="A" /> A) Deduction</label>
+    <label><input type="radio" name="q48" value="B" /> B) Reimbursement to Employee</label>
+    <label><input type="radio" name="q48" value="C" /> C) Fixed Asset</label>
+    <label><input type="radio" name="q48" value="D" /> D) Loan Account</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>49. When creating a Pay Head for HRA (House Rent Allowance), which Pay Head Type should you choose?</p>
+  <div class="options">
+    <label><input type="radio" name="q49" value="A" /> A) Statutory Contribution</label>
+    <label><input type="radio" name="q49" value="B" /> B) Deduction from Employees</label>
+    <label><input type="radio" name="q49" value="C" /> C) Earning for Employees</label>
+    <label><input type="radio" name="q49" value="D" /> D) Loans & Advances</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>50. What is the purpose of assigning a Calculation Type in Pay Head?</p>
+  <div class="options">
+    <label><input type="radio" name="q50" value="A" /> A) To define how the amount will be deducted from bank</label>
+    <label><input type="radio" name="q50" value="B" /> B) To link the ledger to trial balance</label>
+    <label><input type="radio" name="q50" value="C" /> C) To calculate amount automatically (e.g., As Computed Value or Flat Rate)</label>
+    <label><input type="radio" name="q50" value="D" /> D) To print pay slips</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>51. What is a Godown in Tally Prime used for?</p>
+  <div class="options">
+    <label><input type="radio" name="q51" value="A" /> A) Recording employee attendance</label>
+    <label><input type="radio" name="q51" value="B" /> B) Tracking income tax returns</label>
+    <label><input type="radio" name="q51" value="C" /> C) Managing multiple stock storage locations</label>
+    <label><input type="radio" name="q51" value="D" /> D) Recording sales returns</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>52. How can you enable the Godown feature in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q52" value="A" /> A) Gateway of Tally > F12 > Inventory Features</label>
+    <label><input type="radio" name="q52" value="B" /> B) Gateway of Tally > F11 > Inventory Features > Enable Multiple Godowns</label>
+    <label><input type="radio" name="q52" value="C" /> C) Company Info > Create Company</label>
+    <label><input type="radio" name="q52" value="D" /> D) Gateway of Tally > Display</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>53. Where can you create and manage Godowns in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q53" value="A" /> A) Gateway of Tally > Accounting Vouchers</label>
+    <label><input type="radio" name="q53" value="B" /> B) Gateway of Tally > Inventory Info > Godowns</label>
+    <label><input type="radio" name="q53" value="C" /> C) Gateway of Tally > Payroll Info</label>
+    <label><input type="radio" name="q53" value="D" /> D) F12 > Configure > Masters</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>54. What is the default Godown created automatically in Tally Prime?</p>
+  <div class="options">
+    <label><input type="radio" name="q54" value="A" /> A) Warehouse 1</label>
+    <label><input type="radio" name="q54" value="B" /> B) Primary</label>
+    <label><input type="radio" name="q54" value="C" /> C) Main Store</label>
+    <label><input type="radio" name="q54" value="D" /> D) Factory</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>55. Which one of the following is NOT a valid use of Godowns in Tally?</p>
+  <div class="options">
+    <label><input type="radio" name="q55" value="A" /> A) Storing stock items in multiple locations</label>
+    <label><input type="radio" name="q55" value="B" /> B) Tracking stock movement</label>
+    <label><input type="radio" name="q55" value="C" /> C) Recording salary payments</label>
+    <label><input type="radio" name="q55" value="D" /> D) Viewing location-wise stock reports</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>56. Can you create a hierarchy (parent-child) structure of Godowns in Tally?</p>
+  <div class="options">
+    <label><input type="radio" name="q56" value="A" /> A) Yes</label>
+    <label><input type="radio" name="q56" value="B" /> B) No</label>
+    <label><input type="radio" name="q56" value="C" /> C) Only for Capital Accounts</label>
+    <label><input type="radio" name="q56" value="D" /> D) Only in GST module</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>57. While recording stock transfers, Godowns help in:</p>
+  <div class="options">
+    <label><input type="radio" name="q57" value="A" /> A) Adding GST</label>
+    <label><input type="radio" name="q57" value="B" /> B) Tracking inventory movement between locations</label>
+    <label><input type="radio" name="q57" value="C" /> C) Creating payroll entries</label>
+    <label><input type="radio" name="q57" value="D" /> D) None of the above</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>58. In which voucher type can Godowns be selected during stock movement?</p>
+  <div class="options">
+    <label><input type="radio" name="q58" value="A" /> A) Payment Voucher</label>
+    <label><input type="radio" name="q58" value="B" /> B) Contra Voucher</label>
+    <label><input type="radio" name="q58" value="C" /> C) Stock Journal</label>
+    <label><input type="radio" name="q58" value="D" /> D) Journal Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>59. Which report shows quantity and value of stock stored in Godowns?</p>
+  <div class="options">
+    <label><input type="radio" name="q59" value="A" /> A) Trial Balance</label>
+    <label><input type="radio" name="q59" value="B" /> B) Balance Sheet</label>
+    <label><input type="radio" name="q59" value="C" /> C) Stock Summary</label>
+    <label><input type="radio" name="q59" value="D" /> D) Godown Summary</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>60. What will happen if you disable the Godown feature after using it in transactions?</p>
+  <div class="options">
+    <label><input type="radio" name="q60" value="A" /> A) Tally will delete all stock items</label>
+    <label><input type="radio" name="q60" value="B" /> B) Tally will hide godown-related reports</label>
+    <label><input type="radio" name="q60" value="C" /> C) Tally will allow deletion of company</label>
+    <label><input type="radio" name="q60" value="D" /> D) Godowns will convert to ledgers</label>
+  </div>
+</div>
+ <div class="question">
+  <p>61. What is a voucher in Tally Prime? 🤔</p>
+  <div class="options">
+    <label><input type="radio" name="q61" value="A" /> A) A report for payroll processing</label>
+    <label><input type="radio" name="q61" value="B" /> B) A method to reconcile bank accounts</label>
+    <label><input type="radio" name="q61" value="C" /> C) A document to record financial transactions</label>
+    <label><input type="radio" name="q61" value="D" /> D) A type of inventory item</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>62. Which shortcut key is used to access the Accounting Voucher screen in Tally? ⌨️</p>
+  <div class="options">
+    <label><input type="radio" name="q62" value="A" /> A) F5</label>
+    <label><input type="radio" name="q62" value="B" /> B) Alt + F1</label>
+    <label><input type="radio" name="q62" value="C" /> C) Alt + G</label>
+    <label><input type="radio" name="q62" value="D" /> D) V</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>63. What type of voucher is used to record credit purchases in Tally Prime? 🛒</p>
+  <div class="options">
+    <label><input type="radio" name="q63" value="A" /> A) Sales Voucher</label>
+    <label><input type="radio" name="q63" value="B" /> B) Payment Voucher</label>
+    <label><input type="radio" name="q63" value="C" /> C) Purchase Voucher</label>
+    <label><input type="radio" name="q63" value="D" /> D) Receipt Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>64. Which voucher type is used to record cash received from a debtor? 💰</p>
+  <div class="options">
+    <label><input type="radio" name="q64" value="A" /> A) Payment Voucher</label>
+    <label><input type="radio" name="q64" value="B" /> B) Receipt Voucher</label>
+    <label><input type="radio" name="q64" value="C" /> C) Journal Voucher</label>
+    <label><input type="radio" name="q64" value="D" /> D) Contra Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>65. Which of the following vouchers is used to record salary payments? 💼</p>
+  <div class="options">
+    <label><input type="radio" name="q65" value="A" /> A) Payroll Voucher</label>
+    <label><input type="radio" name="q65" value="B" /> B) Purchase Voucher</label>
+    <label><input type="radio" name="q65" value="C" /> C) Contra Voucher</label>
+    <label><input type="radio" name="q65" value="D" /> D) Receipt Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>66. The Sales Voucher is used to: 📈</p>
+  <div class="options">
+    <label><input type="radio" name="q66" value="A" /> A) Record expenses</label>
+    <label><input type="radio" name="q66" value="B" /> B) Record sale of goods/services</label>
+    <label><input type="radio" name="q66" value="C" /> C) Issue employee advances</label>
+    <label><input type="radio" name="q66" value="D" /> D) Reconcile bank accounts</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>67. Which voucher type is used to transfer funds between cash and bank accounts? 🏦</p>
+  <div class="options">
+    <label><input type="radio" name="q67" value="A" /> A) Payment Voucher</label>
+    <label><input type="radio" name="q67" value="B" /> B) Receipt Voucher</label>
+    <label><input type="radio" name="q67" value="C" /> C) Contra Voucher</label>
+    <label><input type="radio" name="q67" value="D" /> D) Journal Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>68. The shortcut key for creating a Payment Voucher is: 🔑</p>
+  <div class="options">
+    <label><input type="radio" name="q68" value="A" /> A) F4</label>
+    <label><input type="radio" name="q68" value="B" /> B) F5</label>
+    <label><input type="radio" name="q68" value="C" /> C) F6</label>
+    <label><input type="radio" name="q68" value="D" /> D) F7</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>69. Which voucher is used to record depreciation or adjustments? ✍️</p>
+  <div class="options">
+    <label><input type="radio" name="q69" value="A" /> A) Journal Voucher</label>
+    <label><input type="radio" name="q69" value="B" /> B) Receipt Voucher</label>
+    <label><input type="radio" name="q69" value="C" /> C) Sales Voucher</label>
+    <label><input type="radio" name="q69" value="D" /> D) Purchase Voucher</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>70. Which of the following statements about voucher entry is TRUE in Tally Prime? ✅</p>
+  <div class="options">
+    <label><input type="radio" name="q70" value="A" /> A) Vouchers can only be created during company creation</label>
+    <label><input type="radio" name="q70" value="B" /> B) Each voucher must be approved by Tally Solutions</label>
+    <label><input type="radio" name="q70" value="C" /> C) Vouchers can be customized and additional types can be created</label>
+    <label><input type="radio" name="q70" value="D" /> D) Vouchers are not used for payroll</label>
+  </div>
+</div>
+<div class="question">
+  <p>71. What is the meaning of the term "Ledger"? 📖</p>
+  <div class="options">
+    <label><input type="radio" name="q71" value="A" /> A) A list of goods available in stock</label>
+    <label><input type="radio" name="q71" value="B" /> B) A summary of employee details</label>
+    <label><input type="radio" name="q71" value="C" /> C) A record of all transactions relating to a particular account</label>
+    <label><input type="radio" name="q71" value="D" /> D) A document of company registration</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>72. Which of the following is classified as a liability? 📉</p>
+  <div class="options">
+    <label><input type="radio" name="q72" value="A" /> A) Furniture</label>
+    <label><input type="radio" name="q72" value="B" /> B) Bank Loan</label>
+    <label><input type="radio" name="q72" value="C" /> C) Cash</label>
+    <label><input type="radio" name="q72" value="D" /> D) Stock</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>73. What does the term "Capital" refer to in accounting? 💼</p>
+  <div class="options">
+    <label><input type="radio" name="q73" value="A" /> A) Total assets of the company</label>
+    <label><input type="radio" name="q73" value="B" /> B) Owner’s investment in the business</label>
+    <label><input type="radio" name="q73" value="C" /> C) Creditors’ payment</label>
+    <label><input type="radio" name="q73" value="D" /> D) Tax on goods</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>74. Which of the following is an example of a revenue expense? 💸</p>
+  <div class="options">
+    <label><input type="radio" name="q74" value="A" /> A) Purchase of a building</label>
+    <label><input type="radio" name="q74" value="B" /> B) Salary paid to employees</label>
+    <label><input type="radio" name="q74" value="C" /> C) Buying a new machine</label>
+    <label><input type="radio" name="q74" value="D" /> D) Land purchase</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>75. The rule for Debit in real accounts is: ➡️</p>
+  <div class="options">
+    <label><input type="radio" name="q75" value="A" /> A) Debit what comes in</label>
+    <label><input type="radio" name="q75" value="B" /> B) Debit all expenses</label>
+    <label><input type="radio" name="q75" value="C" /> C) Debit the giver</label>
+    <label><input type="radio" name="q75" value="D" /> D) Debit all incomes</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>76. What is the meaning of the term "Journal"? 📝</p>
+  <div class="options">
+    <label><input type="radio" name="q76" value="A" /> A) A stock report</label>
+    <label><input type="radio" name="q76" value="B" /> B) Day-to-day record of transactions in chronological order</label>
+    <label><input type="radio" name="q76" value="C" /> C) A GST return file</label>
+    <label><input type="radio" name="q76" value="D" /> D) A report for attendance</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>77. Which of the following is an intangible asset? ✨</p>
+  <div class="options">
+    <label><input type="radio" name="q77" value="A" /> A) Cash</label>
+    <label><input type="radio" name="q77" value="B" /> B) Computer</label>
+    <label><input type="radio" name="q77" value="C" /> C) Trademark</label>
+    <label><input type="radio" name="q77" value="D" /> D) Building</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>78. What does “Drawings” refer to in accounting? 🧑‍💼</p>
+  <div class="options">
+    <label><input type="radio" name="q78" value="A" /> A) The amount spent on drawings/blueprints</label>
+    <label><input type="radio" name="q78" value="B" /> B) Money withdrawn by owner for personal use</label>
+    <label><input type="radio" name="q78" value="C" /> C) Profit earned by the business</label>
+    <label><input type="radio" name="q78" value="D" /> D) Loss in business</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>79. Which account does "Rent Paid" affect? 🏠</p>
+  <div class="options">
+    <label><input type="radio" name="q79" value="A" /> A) Personal Account</label>
+    <label><input type="radio" name="q79" value="B" /> B) Real Account</label>
+    <label><input type="radio" name="q79" value="C" /> C) Nominal Account</label>
+    <label><input type="radio" name="q79" value="D" /> D) Capital Account</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>80. The accounting equation is: ➕➖</p>
+  <div class="options">
+    <label><input type="radio" name="q80" value="A" /> A) Assets = Liabilities - Capital</label>
+    <label><input type="radio" name="q80" value="B" /> B) Liabilities = Assets + Expenses</label>
+    <label><input type="radio" name="q80" value="C" /> C) Assets = Liabilities + Capital</label>
+    <label><input type="radio" name="q80" value="D" /> D) Income = Revenue - Expenses</label>
+  </div>
+</div>
+<div class="question">
+  <p>81. What does GST stand for? 🧾</p>
+  <div class="options">
+    <label><input type="radio" name="q81" value="A" /> A) Goods Supply Tax</label>
+    <label><input type="radio" name="q81" value="B" /> B) General Sales Tax</label>
+    <label><input type="radio" name="q81" value="C" /> C) Goods and Services Tax</label>
+    <label><input type="radio" name="q81" value="D" /> D) Goods and Sales Tariff</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>82. GST is a type of: 📊</p>
+  <div class="options">
+    <label><input type="radio" name="q82" value="A" /> A) Direct Tax</label>
+    <label><input type="radio" name="q82" value="B" /> B) Property Tax</label>
+    <label><input type="radio" name="q82" value="C" /> C) Indirect Tax</label>
+    <label><input type="radio" name="q82" value="D" /> D) Income Tax</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>83. Which of the following is the threshold turnover for mandatory GST registration (for normal taxpayers)? 💰</p>
+  <div class="options">
+    <label><input type="radio" name="q83" value="A" /> A) ₹5 Lakhs</label>
+    <label><input type="radio" name="q83" value="B" /> B) ₹10 Lakhs</label>
+    <label><input type="radio" name="q83" value="C" /> C) ₹20 Lakhs (₹40 Lakhs for goods in some states)</label>
+    <label><input type="radio" name="q83" value="D" /> D) ₹50 Lakhs</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>84. What is the full form of CGST? 🏦</p>
+  <div class="options">
+    <label><input type="radio" name="q84" value="A" /> A) Central General Sales Tax</label>
+    <label><input type="radio" name="q84" value="B" /> B) Central Goods and Services Tax</label>
+    <label><input type="radio" name="q84" value="C" /> C) Common GST</label>
+    <label><input type="radio" name="q84" value="D" /> D) Commercial Goods and Services Tax</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>85. Which of the following is NOT a component of GST? 🚫</p>
+  <div class="options">
+    <label><input type="radio" name="q85" value="A" /> A) SGST</label>
+    <label><input type="radio" name="q85" value="B" /> B) IGST</label>
+    <label><input type="radio" name="q85" value="C" /> C) PGST</label>
+    <label><input type="radio" name="q85" value="D" /> D) CGST</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>86. When a supplier sells goods within the same state, which GST components apply? ➡️⬅️</p>
+  <div class="options">
+    <label><input type="radio" name="q86" value="A" /> A) CGST & SGST</label>
+    <label><input type="radio" name="q86" value="B" /> B) IGST only</label>
+    <label><input type="radio" name="q86" value="C" /> C) SGST only</label>
+    <label><input type="radio" name="q86" value="D" /> D) CGST only</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>87. Which portal is used to apply for GST registration? 🌐</p>
+  <div class="options">
+    <label><input type="radio" name="q87" value="A" /> A) www.gstregistration.gov.in</label>
+    <label><input type="radio" name="q87" value="B" /> B) www.gst.gov.in</label>
+    <label><input type="radio" name="q87" value="C" /> C) www.incometaxindia.gov.in</label>
+    <label><input type="radio" name="q87" value="D" /> D) www.business.gov.in</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>88. What is the GSTIN? 🆔</p>
+  <div class="options">
+    <label><input type="radio" name="q88" value="A" /> A) A tax software</label>
+    <label><input type="radio" name="q88" value="B" /> B) GST Invoice</label>
+    <label><input type="radio" name="q88" value="C" /> C) Goods and Services Tracking ID</label>
+    <label><input type="radio" name="q88" value="D" /> D) A 15-digit GST Identification Number</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>89. Which document is mandatory for GST registration of a sole proprietor? 📄</p>
+  <div class="options">
+    <label><input type="radio" name="q89" value="A" /> A) PAN Card</label>
+    <label><input type="radio" name="q89" value="B" /> B) Aadhar Card</label>
+    <label><input type="radio" name="q89" value="C" /> C) Business Proof</label>
+    <label><input type="radio" name="q89" value="D" /> D) All of the above</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>90. What is the penalty for not registering under GST when required? ⚖️</p>
+  <div class="options">
+    <label><input type="radio" name="q90" value="A" /> A) ₹10,000 or 10% of tax due (whichever is higher)</label>
+    <label><input type="radio" name="q90" value="B" /> B) ₹500</label>
+    <label><input type="radio" name="q90" value="C" /> C) ₹50,000</label>
+    <label><input type="radio" name="q90" value="D" /> D) No penalty</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>91. What are Ledger Groups in Tally Prime used for? 🧩</p>
+  <div class="options">
+    <label><input type="radio" name="q91" value="A" /> A) Organizing inventory</label>
+    <label><input type="radio" name="q91" value="B" /> B) Classifying accounts for correct reporting</label>
+    <label><input type="radio" name="q91" value="C" /> C) Creating invoices</label>
+    <label><input type="radio" name="q91" value="D" /> D) Defining voucher numbers</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>92. Under which Ledger Group does "Capital Account" fall? 💼</p>
+  <div class="options">
+    <label><input type="radio" name="q92" value="A" /> A) Liability</label>
+    <label><input type="radio" name="q92" value="B" /> B) Assets</label>
+    <label><input type="radio" name="q92" value="C" /> C) Income</label>
+    <label><input type="radio" name="q92" value="D" /> D) Loan</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>93. “Sundry Debtors” is a group under: 🤝</p>
+  <div class="options">
+    <label><input type="radio" name="q93" value="A" /> A) Assets</label>
+    <label><input type="radio" name="q93" value="B" /> B) Liabilities</label>
+    <label><input type="radio" name="q93" value="C" /> C) Expenses</label>
+    <label><input type="radio" name="q93" value="D" /> D) Incomes</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>94. Which Ledger Group is used to classify "Electricity Charges"? ⚡</p>
+  <div class="options">
+    <label><input type="radio" name="q94" value="A" /> A) Direct Expenses</label>
+    <label><input type="radio" name="q94" value="B" /> B) Indirect Expenses</label>
+    <label><input type="radio" name="q94" value="C" /> C) Indirect Incomes</label>
+    <label><input type="radio" name="q94" value="D" /> D) Direct Incomes</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>95. A ledger for "Sales" is created under which group? 💲</p>
+  <div class="options">
+    <label><input type="radio" name="q95" value="A" /> A) Direct Expenses</label>
+    <label><input type="radio" name="q95" value="B" /> B) Purchase Accounts</label>
+    <label><input type="radio" name="q95" value="C" /> C) Sales Accounts</label>
+    <label><input type="radio" name="q95" value="D" /> D) Indirect Expenses</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>96. What is the default Ledger Group for “Cash” in Tally? 💵</p>
+  <div class="options">
+    <label><input type="radio" name="q96" value="A" /> A) Bank Accounts</label>
+    <label><input type="radio" name="q96" value="B" /> B) Cash-in-hand</label>
+    <label><input type="radio" name="q96" value="C" /> C) Sundry Debtors</label>
+    <label><input type="radio" name="q96" value="D" /> D) Capital Account</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>97. "Salary Paid" is classified under which Ledger Group? 🧑‍💻</p>
+  <div class="options">
+    <label><input type="radio" name="q97" value="A" /> A) Direct Expenses</label>
+    <label><input type="radio" name="q97" value="B" /> B) Indirect Expenses</label>
+    <label><input type="radio" name="q97" value="C" /> C) Loans and Advances</label>
+    <label><input type="radio" name="q97" value="D" /> D) Fixed Assets</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>98. GST Ledger for Output Tax should be grouped under: 🧾</p>
+  <div class="options">
+    <label><input type="radio" name="q98" value="A" /> A) Duties & Taxes</label>
+    <label><input type="radio" name="q98" value="B" /> B) Indirect Income</label>
+    <label><input type="radio" name="q98" value="C" /> C) Loans</label>
+    <label><input type="radio" name="q98" value="D" /> D) Current Assets</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>99. Ledger “Bank of India” should be placed under which group? 🏦</p>
+  <div class="options">
+    <label><input type="radio" name="q99" value="A" /> A) Cash-in-hand</label>
+    <label><input type="radio" name="q99" value="B" /> B) Sundry Debtors</label>
+    <label><input type="radio" name="q99" value="C" /> C) Bank Accounts</label>
+    <label><input type="radio" name="q99" value="D" /> D) Secured Loans</label>
+  </div>
+</div>
+
+<div class="question">
+  <p>100. Which group is used for “Outstanding Expenses”? ⏳</p>
+  <div class="options">
+    <label><input type="radio" name="q100" value="A" /> A) Current Assets</label>
+    <label><input type="radio" name="q100" value="B" /> B) Indirect Expenses</label>
+    <label><input type="radio" name="q100" value="C" /> C) Current Liabilities</label>
+    <label><input type="radio" name="q100" value="D" /> D) Capital Account</label>
+  </div>
+</div>
+          <button type="button" id="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="resultContainer" hidden>
+        <h2>Quiz Results</h2>
+        <div id="studentDetails"></div>
+        <p id="resultText"></p>
+        <button id="retryButton">Retry Quiz</button>
+      </section>
+    </div>
+
+    <nav id="questionNavigator">
+      <h3>Navigate</h3>
+      <div id="navButtons"></div>
+    </nav>
+
+    
+
+  </main>
+</body>
+</html>
