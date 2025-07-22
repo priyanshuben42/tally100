@@ -1,4 +1,4 @@
-let timeLeft = 60 * 60; // 60 minutes in seconds
+let timeLeft = 5400; // 60 minutes in seconds
 const timerElement = document.getElementById("timer");
 const quizContainer = document.getElementById("quizContainer");
 const resultContainer = document.getElementById("resultContainer");
